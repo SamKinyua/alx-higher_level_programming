@@ -1,4 +1,4 @@
-#!/usr/bn/python3
+#!/usr/bin/python3
 """
 Class square that defines a square by: 3-square.py
 """
@@ -28,12 +28,12 @@ class Square:
         return self.__size
 
     @size.setter
-    def size(self, value):
-        if not isinstance(value, int):
+    def size(self, size):
+        self.__size = size
+        if type(self.__size) is not int:
             raise TypeError('size must be an integer')
-        if value < 0:
+        if self.__size < 0:
             raise ValueError('size must be >= 0')
-        self.__size = value
 
     def area(self):
         """Returns square area
