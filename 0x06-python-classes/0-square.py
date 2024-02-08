@@ -6,7 +6,7 @@ Define a empty Class Square
 """
 
 
-Class Square():
+class Square():
     """
     Empty Class
     """
