@@ -21,7 +21,7 @@ class Rectangle:
         self.height = height
         Rectangle.number_of_instances += 1
 
-     @property
+    @property
     def width(self):
         """ method that returns the value of the width
         Returns:
