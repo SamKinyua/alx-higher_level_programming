@@ -13,7 +13,7 @@ if __name__ == "__main__":
         print("Usage: nqueens N")
         exit(1)
     if argv[1].isdigit() is False:
-        print("N must be anumber")
+        print("N must be a number")
         exit(1)
     n = int(argv[1])
     if n < 4:
