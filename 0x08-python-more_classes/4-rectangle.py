@@ -10,7 +10,7 @@ class Rectangle:
         """Initializze a new Rectangle.
         Args:
             width (int): The width of the new rectangle.
-            heigth (int): The height of the new rectangle.
+            height (int): The height of the new rectangle.
         """
         self.width = width
         self.height = height
@@ -18,7 +18,7 @@ class Rectangle:
     @property
     def width(self):
         """Get/set the width of the Rectangle."""
-        return self.width
+        return self.__width
 
     @width.setter
     def width(self, value):
